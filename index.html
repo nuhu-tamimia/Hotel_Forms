@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hotel reservation form</title>
+    </head>
+    <body>
+    <div style="text-align:center;">
+        <h1><i> Hotel Transylvania</i></h1>
+        <H3>For Only Humans, No Pets Allowed!</H3>
+    </div>
+    <p>Please fill in the form with the current data below.</p>
+                                                               
+        <!-- =========================beginning of form==================================== -->
+        <form action="">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" value="" placeholder="Your first name"><br><br>
+
+                <label for="firstname">Last Name</label> 
+                <input type="text" name="lastname" value="" placeholder="Your last name"><br><br>
+                
+                <label for="Phonenumber">Phone Number</label>
+                <input type="number" placeholder="Mobile number"><br><br>
+
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="Enter your email"><br><br> 
+            </fieldset>
+
+            <fieldset>
+                <legend>Room Specifications</legend>
+                <label for="arrivaldate">Arrival Date</label>
+                <input type="date" name="arrivaldate"><br><br>
+
+                <label for="departdate">Departure Date</label>
+                <input type="date" name="departuredate"><br><br>
+
+                <label for="adultnumber">Number Of Adults</label>
+                <input type="number" name="adultnumber" ><br><br>
+
+                <label for="roomtype">Room type</label>
+                <select name="Rooms" id="" >
+                    <option value="" selected="true" disabled="disabled">--select--</option>
+                    <option value="">Single</option>
+                    <option value="">Twin</option>
+                    <option value="">Executive Suite</option>
+                    <option value="">Presidential Suite</option>
+                    <option value="">Apartment</option>
+                </select><br><br>
+
+                <label for="payment">Payment Type</label>
+                <select name="payment" id="">
+                    <option value="" selected="true" disabled="disabled">--select--</option>
+                    <option value="creditCard">Credit Card</option>
+                    <option value="cash">Cash</option>
+                    
+                </select>
+            </fieldset><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <!-- =========================================================end of form================================= -->
+
+        <h3>NOTE:</h3>
+        <ol>
+            <li>All informations provided above must be correct.</li>
+            <li>All customers must keep to the rules in the hotel.</li>
+            <li>For any cancellation or extension of booking(s), contact us as soon as possible. That is, Two(2) days before the date.</li>
+        </ol>
+        <hr>
+
+        <!-- ====================================FOOTER========================================================== -->
+        <footer>
+        <h4 style="text-align:center;">&copy; tencodes.com</h4>
+        </footer>
+    </body>
+</html>
